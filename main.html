@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main">
+        <h1 id="heading">QUIZ</h1>
+        <h4 id="qno"></h4>
+        <p id="ques"></p>
+        <h3 id="type"></h3>
+        <div class="options_poo">
+            <button id="opt1" onclick="optionselected(this.textContent)">Option 1</button>
+            <button id="opt2" onclick="optionselected(this.textContent)">option 2</button>
+            <button id="opt3" onclick="optionselected(this.textContent)">option 3</button>
+            <button id="opt4" onclick="optionselected(this.textContent)">option 4</button>
+        </div>
+        <div class="submit">
+            <button id="next">NEXT</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
